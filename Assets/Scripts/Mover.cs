@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class Mover : MonoBehaviour
 {
-    void Update()
+    private void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime);
     }
